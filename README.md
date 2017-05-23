@@ -26,4 +26,10 @@ To run OMTF on official DY, WJets and Neutrino samples use:
 submitJobsDataset.py
 ----
 
+The results are saved into separate directories foe each job. Merge thos into a single file with ROOT hadd:
 
+----
+hadd EfficiencyTree.root SingleMu_*/EfficiencyTree.root
+----
+
+If you are processing datasets, save events frome eahc process (W, DY, Neutrino) into separate file.
