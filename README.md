@@ -4,12 +4,13 @@ and DataFormats/L1RpcTriggerAnalysis/ packages.
 
 To run OMTF on single muon samples use:
 
----
+----
 ./submitJobs.py
----
+----
 
 By default the scriupt run over all pt codes.
 Modify pt ranges
+
 ----
 iPtMin = 1
 iPtMax = 31
@@ -21,8 +22,8 @@ parallel.
 
 To run OMTF on official DY, WJets and Neutrino samples use:
 
----
+----
 submitJobsDataset.py
----
+----
 
 
